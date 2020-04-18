@@ -467,8 +467,8 @@ hr {
 }
 
 .btn:hover::before {
-   top: -8px;
-   left: -8px;
+   top: -2px;
+   left: -5px;
 }
 
 .btn::before {
@@ -477,8 +477,8 @@ hr {
    width: 100%;
    height: 100%;
    content: "";
-   top: 8px;
-   left: -8px;
+   top: 2px;
+   left: -2px;
    z-index: -1;
    -webkit-transition: all 0.4s ease-out 0s;
    -moz-transition: all 0.4s ease-out 0s;
@@ -513,12 +513,12 @@ hr {
 
 .white-btn::before {
    position: absolute;
-   background: #fff;
+   background: #f27420;
    width: 100%;
    height: 100%;
    content: "";
-   top: 8px;
-   left: -8px;
+   top: 2px;
+   left: -2px;
    z-index: -1;
    -webkit-transition: all 0.4s ease-out 0s;
    -moz-transition: all 0.4s ease-out 0s;
@@ -532,8 +532,8 @@ hr {
 }
 
 .white-btn:hover::before {
-   top: 8px;
-   left: 8px;
+   top: 2px;
+   left: 5px;
 }
 
 .btn.hero-btn {
@@ -2609,9 +2609,11 @@ hr {
 }
 
 .slider-height2 {
-   min-height: 390px;
+   min-height: 600px;
    background-repeat: no-repeat;
    background-position: center center;
+   background-size: cover;
+   position: relative;
 }
 
 @media (max-width: 767px) {
@@ -2784,7 +2786,13 @@ hr {
    -o-transition: all 0.4s ease-out 0s;
    transition: all 0.4s ease-out 0s;
    background: #fafafa;
+   text-align: center;
 }
+
+.services-areaa .single-services {
+   width: 50%;
+}
+
 
 .services-top {
    padding-top: 50px;
@@ -2805,17 +2813,29 @@ hr {
    .services-area .single-services {
       width: 33.33%;
    }
+
+   .services-areaa .single-services {
+      width: 50%;
+   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
    .services-area .single-services {
       width: 33.3%;
    }
+
+   .services-areaa .single-services {
+      width: 50% !important
+   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
    .services-area .single-services {
       width: 33.3%;
+   }
+
+   .services-areaa .single-services {
+      width: 50% !important
    }
 }
 
@@ -2840,7 +2860,7 @@ hr {
 
 @media (max-width: 567px) {
    .safe-industery-area .row div[class*="col-"] {
-      padding-right: 0;
+      /* padding-right: 0; */
    }
 }
 
@@ -2878,6 +2898,11 @@ hr {
    left: 0;
    bottom: 0;
    z-index: -1;
+}
+
+.services-areaa .single-services .services-caption h4::before {
+   position: absolute;
+   content: unset;
 }
 
 .services-area .single-services .services-caption p {
@@ -3040,8 +3065,14 @@ hr {
    line-height: 2.2;
 }
 
+.safe-caption-2 p,
+.safe-caption-2 h2 {
+   padding-right: 0;
+   padding-left: 76px;
+}
+
 .gallery-area {
-   margin-top: 10rem;
+   /* margin-top: 10rem; */
 }
 
 .gallery-area .gallery-box .single-gallery {
@@ -3085,6 +3116,11 @@ hr {
    left: 32px;
 }
 
+.gallery-areaa .gallery-box .single-gallery .g-caption1 {
+   left: unset;
+   position: relative;
+}
+
 .gallery-area .gallery-box .single-gallery .g-caption1 span {
    color: #f27420;
    font-size: 40px;
@@ -3095,6 +3131,16 @@ hr {
 
 .gallery-area .gallery-box .single-gallery .g-caption1 h4 {
    color: #ffffff;
+   text-align: center;
+}
+
+.gallery-areaa .gallery-box .single-gallery .g-caption1 h4 {
+   color: #000;
+   text-align: center;
+}
+
+.gallery-areaaa .gallery-box .single-gallery .g-caption1 h4 {
+   margin: 30px 0
 }
 
 .gallery-area .gallery-box .single-gallery .g-caption2 {
@@ -3142,6 +3188,10 @@ hr {
 .gallery-box:hover .single-gallery::after {
    visibility: visible;
    opacity: 1;
+}
+
+.single-product-box .single-gallery::after {
+   content: unset !important;
 }
 
 .gallery-box:hover .single-gallery .g-caption2 {
@@ -3376,13 +3426,13 @@ hr {
 .wantToWork-area {
    position: relative;
    z-index: 0;
-   background: #f27420;
+   /* background: #f27420; */
    overflow: hidden;
 }
 
 .wantToWork-area .wantToWork-caption h2 {
-   color: #fff;
-   font-size: 50px;
+   /* color: #fff; */
+   font-size: 40px;
    font-weight: 700;
    line-height: 1.5;
    margin: 0;
@@ -3400,30 +3450,10 @@ hr {
    }
 }
 
-.wantToWork-area .wantToWork-btn {
-   padding-right: 50px;
-   position: relative;
-   bottom: 21px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-   .wantToWork-area .wantToWork-btn {
-      float: left;
-      margin-top: 59px;
-   }
-}
-
-@media (max-width: 767px) {
-   .wantToWork-area .wantToWork-btn {
-      float: left;
-      margin-top: 59px;
-   }
-}
-
 .wantToWork-area::after {
    position: absolute;
    content: "";
-   background-image: url(../img/icon/footer_arrow.png);
+   /* background-image: url(../img/icon/footer_arrow.png); */
    left: 0;
    right: 0;
    bottom: 0;
@@ -3525,6 +3555,11 @@ hr {
    color: #fff;
    font-weight: 500;
    line-height: 1.5;
+}
+
+.testimonial-area .safe-industery-area .safe-caption h2,
+.testimonial-area .safe-industery-area .safe-caption p {
+   color: #eee;
 }
 
 /* Homepage1 Testimonial */
@@ -5509,14 +5544,18 @@ hr {
 
 .gallery-area .gallery-box .single-gallery::before {
    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#021a47+0,021a47+100&0+0,0.6+100 */
-   background: -moz-linear-gradient(top, rgba(2, 26, 71, 0) 0%, rgba(2, 26, 71, 0.6) 100%);
+   background: -moz-linear-gradient(to bottom, rgba(2, 26, 71, 0.019) 0%, rgba(2, 26, 71, 0.3) 100%);
    /* FF3.6-15 */
-   background: -webkit-linear-gradient(top, rgba(2, 26, 71, 0) 0%, rgba(2, 26, 71, 0.6) 100%);
+   background: -webkit-linear-gradient(to bottom, rgba(2, 26, 71, 0.019) 0%, rgba(2, 26, 71, 0.3) 100%);
    /* Chrome10-25,Safari5.1-6 */
-   background: linear-gradient(to bottom, rgba(2, 26, 71, 0) 0%, rgba(2, 26, 71, 0.6) 100%);
+   background: linear-gradient(to bottom, rgba(2, 26, 71, 0.019) 0%, rgba(2, 26, 71, 0.3) 100%);
    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00021a47', endColorstr='#99021a47', GradientType=0);
    /* IE6-9 */
+}
+
+.gallery-areaa .gallery-box .single-gallery::before {
+   background: unset;
 }
 
 .sample-text-area {
@@ -6628,6 +6667,44 @@ del {
    margin-bottom: 10px;
 }
 
+.slider-caption-holder {
+   position: relative;
+   max-height: 600px;
+}
+
+.slider-caption-holder::before,
+.slider-height2::before {
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: rgba(0, 0, 0, .5);
+}
+
+.slider-caption {
+   position: absolute;
+   width: 100%;
+   padding: 0 300px;
+   font-size: 50px;
+   top: 0;
+   left: 0;
+   height: 100%;
+   /* justify-content: center; */
+   /* text-align: center; */
+   display: flex;
+   align-items: center;
+}
+
+.slider-caption h1 {
+   color: #fff;
+   text-shadow: 0 0 5px #000;
+   font-size: 110%;
+   /* line-height: 1; */
+   text-align: left;
+}
+
 
 /* .Rectangle_9 {
     background-image: -moz-linear-gradient( 90deg, #00163ee6 0%, #00163e00 62%, #00163e 62%);
@@ -6640,3 +6717,79 @@ del {
     height: 222px;
     z-index: 162;
   } */
+.safe-industery-area.single-product-page {
+   padding: 1.5rem;
+   background-color: #fafafa;
+}
+
+@media(min-width:768px) {
+   .wantToWork-btn {
+      text-align: right;
+   }
+}
+
+@media(max-width:1199px) {
+   .slider-caption {
+      padding: 0 170px;
+   }
+}
+
+@media(max-width:991px) {
+   .slider-caption {
+      padding: 0 100px;
+   }
+
+   .slider-caption h1 {
+      font-size: 90%;
+      text-align: center;
+   }
+}
+
+@media(max-width:767px) {
+   .slider-caption {
+      padding: 0 20px;
+   }
+
+   .slider-caption h1 {
+      font-size: 85%;
+      text-align: center;
+   }
+
+   .slider-caption-holder {
+      max-height: 500px;
+   }
+
+   .carousel-control-prev,
+   .carousel-control-next {
+      display: none;
+   }
+
+   .carousel-item img {
+      width: unset !important;
+   }
+
+   .safe-caption-2 h2,
+   .safe-industery-area .safe-caption .safe-pera-two {
+      padding: 0 10px;
+   }
+
+   .wantToWork-btn,
+   .wantToWork-caption {
+      text-align: center;
+   }
+
+   .wantToWork-caption {
+      margin-bottom: 1rem;
+   }
+}
+
+@media(max-width:567px) {
+   .safe-industery-area.single-product-page {
+      padding: 0;
+      padding-top: 1rem;
+   }
+
+   .gallery-area.gallery-areaa {
+      margin-top: 0;
+   }
+}
