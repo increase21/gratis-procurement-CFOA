@@ -177,7 +177,7 @@
                            <!-- <span>01.</span> -->
                            <h4>VX DELUXE</h4>
                            <p>The VX Deluxe runs on an axial flow turbine and this allows you to control the flow
-                              better. It uses an in-line 4 engine which offers more speed for less weight.</p>
+                              better.</p>
                            <a href="work" class="read-btn">Read more</a>
                         </div>
                      </div>
