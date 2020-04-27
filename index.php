@@ -178,7 +178,7 @@
                            <h4>VX DELUXE</h4>
                            <p>The VX Deluxe runs on an axial flow turbine and this allows you to control the flow
                               better.</p>
-                           <a href="work" class="read-btn">Read more</a>
+                           <a href="/products/vx-deluxe" class="read-btn">Read more</a>
                         </div>
                      </div>
                   </div>
@@ -198,7 +198,7 @@
                            <!-- <span>02.</span> -->
                            <h4>VXR</h4>
                            <p>The Waverunner VXR is one Jet Ski you want for yourself.</p>
-                           <a href="work" class="read-btn">Read more</a>
+                           <a href="/products/vxr" class="read-btn">Read more</a>
                         </div>
                      </div>
                   </div>
@@ -219,7 +219,7 @@
                            <h4>VX CRUISER</h4>
                            <p>The VX Cruiser is a waverunner that uses a high-efficiency axial flow turbine. It uses an
                               in-line 4engine type. </p>
-                           <a href="work" class="read-btn">Read more</a>
+                           <a href="/products/vxr-cruiser" class="read-btn">Read more</a>
                         </div>
                      </div>
                   </div>
@@ -239,7 +239,7 @@
                            <!-- <span>04.</span> -->
                            <h4>FX HO</h4>
                            <p>The FX HO Yamaha Waverunner engine is something to behold. You can have so much power with less fuel.</p>
-                           <a href="work" class="read-btn">Read more</a>
+                           <a href="/products/fx-ho" class="read-btn">Read more</a>
                         </div>
                      </div>
                   </div>
