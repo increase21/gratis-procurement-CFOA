@@ -9,15 +9,14 @@
                         <div class="footer-tittle">
                            <h4>About Us</h4>
                            <div class="footer-pera">
-                              <p>Change Distribution and Support Services Limited (CDANDSSL) is a Yamaha Waverunners and Yamaha Outboard Engine parts distributor in Nigeria
-                                 and Africa.</p>
+                              <p>Change Distribution and Support Services Limited (CDANDSSL) is a Yamaha Waverunners and Yamaha Outboard Engine parts distributor.</p>
                            </div>
                         </div>
                      </div>
                      <!-- logo -->
                      <div class="safe-industery-area">
                         <div class="logo safe-caption ">
-                           <h2 class="mb-0" style="color: #f27420;">CDANDSSL</h2>
+                           <h2 class="mb-0" style="color: #f27420; font-size:35px;">CDANDSSL</h2>
                         </div>
                      </div>
                   </div>
@@ -31,8 +30,8 @@
                               <p> Address :Your address goes
                                  here, your demo address.</p>
                            </li>
-                           <li><a href="#">+8880 44338899</a></li>
-                           <li><a href="#">company@mail.com</a></li>
+                           <li><a href="#">+888044338899</a></li>
+                           <li><a href="#">support@cdandssl.com</a></li>
                         </ul>
                      </div>
                   </div>

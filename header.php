@@ -62,7 +62,7 @@
                               </li>
                               <li>
                                  <i class="fa fa-envelope"></i>
-                                 <span>info@domain.com </span>
+                                 <span>support@cdandssl.com </span>
                               </li>
                            </ul>
                         </div>

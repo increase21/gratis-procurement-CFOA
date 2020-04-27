@@ -197,8 +197,7 @@
                         <div class="g-caption2">
                            <!-- <span>02.</span> -->
                            <h4>VXR</h4>
-                           <p>The Waverunner VXR is one Jet Ski you want for yourself. It uses an haute-pression-155
-                              turbine. </p>
+                           <p>The Waverunner VXR is one Jet Ski you want for yourself.</p>
                            <a href="work" class="read-btn">Read more</a>
                         </div>
                      </div>
@@ -219,7 +218,7 @@
                            <!-- <span>03.</span> -->
                            <h4>VX CRUISER</h4>
                            <p>The VX Cruiser is a waverunner that uses a high-efficiency axial flow turbine. It uses an
-                              in-line 4engine type. This makes the boat lighter and faster. </p>
+                              in-line 4engine type. </p>
                            <a href="work" class="read-btn">Read more</a>
                         </div>
                      </div>
@@ -239,8 +238,7 @@
                         <div class="g-caption2">
                            <!-- <span>04.</span> -->
                            <h4>FX HO</h4>
-                           <p>The FX HO Yamaha Waverunner engine is something to behold. With a displacement of 1,812
-                              cubic centimetres, you can have so much power with less fuel.</p>
+                           <p>The FX HO Yamaha Waverunner engine is something to behold. You can have so much power with less fuel.</p>
                            <a href="work" class="read-btn">Read more</a>
                         </div>
                      </div>
