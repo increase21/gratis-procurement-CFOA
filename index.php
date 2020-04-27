@@ -219,7 +219,7 @@
                            <h4>VX CRUISER</h4>
                            <p>The VX Cruiser is a waverunner that uses a high-efficiency axial flow turbine. It uses an
                               in-line 4engine type. </p>
-                           <a href="/products/vxr-cruiser" class="read-btn">Read more</a>
+                           <a href="/products/vx-cruiser" class="read-btn">Read more</a>
                         </div>
                      </div>
                   </div>
